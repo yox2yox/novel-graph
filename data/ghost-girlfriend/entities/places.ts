@@ -100,6 +100,16 @@ export const seasideTown: Place = {
     "東山の恋人の霊を探しに行く目的地。更衣室事件の舞台。",
 };
 
+export const accidentScene: Place = {
+  id: "place-accident-scene",
+  type: "place",
+  name: "事故現場の道路",
+  description: "東山の恋人が交通事故で亡くなった道路。花が供えられている。",
+  atmosphere: "車通りのある道路だが、夜になると霊的なエネルギーが高まる。",
+  significance:
+    "東山の恋人の霊を呼び出す作戦の舞台。天馬が東山と向き合う場所。",
+};
+
 export const places: Place[] = [
   musicRoom,
   classroom,
@@ -111,4 +121,5 @@ export const places: Place[] = [
   corridor3f,
   stationCafe,
   seasideTown,
+  accidentScene,
 ];

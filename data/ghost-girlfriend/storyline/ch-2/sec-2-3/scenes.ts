@@ -1,4 +1,6 @@
 import type { Scene } from "../../../../src";
+import { body as scene231Body } from "./scene-2-3-1/body";
+import { body as scene232Body } from "./scene-2-3-2/body";
 
 export const scenes: Scene[] = [
   {
@@ -23,6 +25,7 @@ export const scenes: Scene[] = [
         after: "学校から一定以上離れると体に異変が起きることが判明",
       },
     ],
+    body: scene231Body,
   },
   {
     id: "scene-2-3-2",
@@ -55,5 +58,6 @@ export const scenes: Scene[] = [
         after: "互いの事情を知り、信頼関係が芽生え始める",
       },
     ],
+    body: scene232Body,
   },
 ];

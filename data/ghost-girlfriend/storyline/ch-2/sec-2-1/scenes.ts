@@ -1,4 +1,5 @@
 import type { Scene } from "../../../../src";
+import { body as scene211Body } from "./scene-2-1-1/body";
 
 export const scenes: Scene[] = [
   {
@@ -28,5 +29,6 @@ export const scenes: Scene[] = [
         after: "転校生としてクラスに溶け込む",
       },
     ],
+    body: scene211Body,
   },
 ];

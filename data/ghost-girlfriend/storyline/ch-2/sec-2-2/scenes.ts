@@ -1,4 +1,6 @@
 import type { Scene } from "../../../../src";
+import { body as scene221Body } from "./scene-2-2-1/body";
+import { body as scene222Body } from "./scene-2-2-2/body";
 
 export const scenes: Scene[] = [
   {
@@ -20,6 +22,7 @@ export const scenes: Scene[] = [
         after: "すぐに飽きられて疎外感を感じる",
       },
     ],
+    body: scene221Body,
   },
   {
     id: "scene-2-2-2",
@@ -50,5 +53,6 @@ export const scenes: Scene[] = [
         after: "楽しい学生生活を送ること＋会いたい人がいること（詳細は不明）",
       },
     ],
+    body: scene222Body,
   },
 ];

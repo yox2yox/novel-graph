@@ -110,6 +110,82 @@ export const accidentScene: Place = {
     "東山の恋人の霊を呼び出す作戦の舞台。天馬が東山と向き合う場所。",
 };
 
+export const tenmaHouse: Place = {
+  id: "place-tenma-house",
+  type: "place",
+  name: "天馬の家",
+  description: "天馬が住んでいる自宅。",
+  atmosphere: "普通の家庭だが、天馬の部屋にはオカルト関連の本が並ぶ。",
+  significance:
+    "ユーコと天馬が二人きりで過ごし、距離が一気に縮まる場所。",
+};
+
+export const shoppingArea: Place = {
+  id: "place-shopping",
+  type: "place",
+  name: "商店街",
+  description:
+    "学校近くの商店街。お店が立ち並び、買い物や食事ができる。",
+  atmosphere: "賑やかで活気のある雰囲気。",
+  significance:
+    "天馬とユーコが買い出しデートをする場所。おそろいのキーホルダーを購入する。",
+};
+
+export const emptyClassroom: Place = {
+  id: "place-empty-classroom",
+  type: "place",
+  name: "空き教室",
+  description:
+    "文化祭で休憩スペースとして使われている空き教室。",
+  atmosphere: "静かで人がおらず、落ち着いた空間。",
+  significance:
+    "天馬がユーコに過去のトラウマを打ち明ける場所。",
+};
+
+export const spiritWorld: Place = {
+  id: "place-spirit-world",
+  type: "place",
+  name: "霊界",
+  description:
+    "死者の魂が存在する別次元の世界。旧校舎と重なるように存在している。",
+  atmosphere: "不気味で危険な空間。悪霊が飛び回っている。",
+  significance:
+    "ユーコが悪霊に連れ去られる場所。天馬たちが救出に向かう。",
+};
+
+export const yuukoMotherHouse: Place = {
+  id: "place-yuuko-mother-house",
+  type: "place",
+  name: "ユーコの母親の家",
+  description:
+    "ユーコの母親が一人で暮らしている家。玄関にはユーコの写真がたくさん飾られ、二階にはユーコの部屋が再現されている。",
+  atmosphere: "静かで寂しげだが、娘への愛情が感じられる空間。",
+  significance:
+    "ユーコが母親と再会し、互いに許し合う場所。",
+};
+
+export const summerFestival: Place = {
+  id: "place-summer-festival",
+  type: "place",
+  name: "夏祭り",
+  description:
+    "地元で開催される夏祭り。出店が並び、花火も上がる。",
+  atmosphere: "賑やかで楽しげな夏の夜の雰囲気。",
+  significance:
+    "ユーコが天馬に本当の恋人になってほしいと告白する場所。",
+};
+
+export const hauntedHouse: Place = {
+  id: "place-haunted-house",
+  type: "place",
+  name: "お化け屋敷",
+  description:
+    "オカルト研が文化祭で出し物として作ったお化け屋敷。",
+  atmosphere: "恐怖を演出した暗い空間。エネルギー収集装置が設置されている。",
+  significance:
+    "負のエネルギーを集めるための装置。事故によって霊界への入り口が開く。",
+};
+
 export const places: Place[] = [
   musicRoom,
   classroom,
@@ -122,4 +198,11 @@ export const places: Place[] = [
   stationCafe,
   seasideTown,
   accidentScene,
+  tenmaHouse,
+  shoppingArea,
+  emptyClassroom,
+  spiritWorld,
+  yuukoMotherHouse,
+  summerFestival,
+  hauntedHouse,
 ];

@@ -33,8 +33,21 @@ export const higashiyamaNotebook: Item = {
     "渡り廊下の幽霊を封じ込め、東山への対抗手段となった。",
 };
 
+export const matchingKeychain: Item = {
+  id: "item-matching-keychain",
+  type: "item",
+  name: "おそろいのキーホルダー",
+  description:
+    "天馬とユーコが買い物デートで購入したおそろいのキーホルダー。恋人関係を偽装するためにつけるという名目だが、二人の絆の象徴。",
+  effect:
+    "霊界でユーコに取り憑いた悪霊を追い払う力を持つ。最終決戦で焚き火に投じることで負のエネルギーを生み出す。",
+  significance:
+    "天馬とユーコの関係を象徴するアイテム。物語のクライマックスで重要な役割を果たす。",
+};
+
 export const items: Item[] = [
   ghostNotebook,
   summoningMachine,
   higashiyamaNotebook,
+  matchingKeychain,
 ];

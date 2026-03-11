@@ -221,6 +221,96 @@ export const minamikawa: Character = {
   ],
 };
 
+export const miko: Character = {
+  id: "char-miko",
+  type: "character",
+  name: "ミコ",
+  description:
+    "天馬とリュウの共通の幼馴染。中学時代にリュウと恋人関係になり、それがきっかけで三人の仲に亀裂が入った。高校は別の学校に進学した。",
+  personality: {
+    traits: ["優しい", "気遣いができる", "素直"],
+    values: ["友情", "過去の関係を修復したい"],
+    flaws: ["自分を責めがち"],
+  },
+  goals: ["天馬やリュウとの関係を修復する"],
+  motivation: "三人の友情を壊してしまったことへの罪悪感",
+  backstory:
+    "天馬とリュウの幼馴染。中学時代にリュウと恋人関係になったことで三人の関係が崩れた。その後リュウとは別れ、高校は別の学校に進学。文化祭で再会する。",
+  relationships: [
+    {
+      targetId: "char-tenma",
+      label: "幼馴染",
+      description:
+        "小さいころからの親友だったが、リュウとの恋愛がきっかけで疎遠になった。",
+    },
+    {
+      targetId: "char-ryuu",
+      label: "元恋人・幼馴染",
+      description:
+        "中学時代に恋人関係にあった。現在は別れているが、友人関係の修復を望んでいる。",
+    },
+  ],
+};
+
+export const homeRoomTeacher: Character = {
+  id: "char-homeroom-teacher",
+  type: "character",
+  name: "担任",
+  description: "天馬たちのクラスの担任教師。ユーコの書類の不正に気づく。",
+  personality: {
+    traits: ["厳格", "真面目"],
+    values: ["規律"],
+    flaws: ["融通が利かない"],
+  },
+  goals: [],
+  motivation: "教師としての責任を果たすこと",
+  backstory: "天馬たちのクラスの担任。ユーコの転入書類に不審な点を発見する。",
+  relationships: [],
+};
+
+export const yuukoMother: Character = {
+  id: "char-yuuko-mother",
+  type: "character",
+  name: "ユーコの母親",
+  description:
+    "16年前に亡くなったユーコの母親。かつて教育界で有名だったが、ユーコの遺書が原因でバッシングを受け世間から姿を消した。",
+  personality: {
+    traits: ["厳格だった", "後悔に苛まれている"],
+    values: ["娘への愛情"],
+    flaws: ["過去に娘に過度なプレッシャーを与えていた"],
+  },
+  goals: ["娘に許しを請うこと"],
+  motivation: "娘を失った後悔と償いの気持ち",
+  backstory:
+    "ユーコに成績のプレッシャーを与え、友人関係や趣味を禁止し軟禁状態にしていた。ユーコの自殺後、遺書の内容が公になりバッシングを受けて世間から消えた。現在はユーコの部屋を再現し、写真を飾りながら暮らしている。",
+  relationships: [
+    {
+      targetId: "char-yuuko",
+      label: "母娘",
+      description:
+        "生前は過度な教育圧力で娘を追い詰めたが、死後はその罪を悔い続けている。",
+    },
+  ],
+};
+
+export const oobaYuumi: Character = {
+  id: "char-ooba-yuumi",
+  type: "character",
+  name: "大場ユウミ",
+  description:
+    "ユーコと瓜二つの容姿を持つ少女。物語の最後に天馬のクラスに現れる。",
+  personality: {
+    traits: [],
+    values: [],
+    flaws: [],
+  },
+  goals: [],
+  motivation: "",
+  backstory:
+    "ユーコが消えてから半年後に天馬のクラスに現れた少女。ユーコと瓜二つの容姿を持つ。",
+  relationships: [],
+};
+
 export const characters: Character[] = [
   tenma,
   ryuu,
@@ -230,4 +320,8 @@ export const characters: Character[] = [
   higashiyama,
   nishimori,
   minamikawa,
+  miko,
+  homeRoomTeacher,
+  yuukoMother,
+  oobaYuumi,
 ];
